@@ -17,8 +17,7 @@ Now the question is how to dynamically predict the type of the text ?. One of th
 1. Python
 2. FastAPI
 3. Machine learning algorithms
-4. Docker
-5. MongoDB
+4. MongoDB
 
 ## Infrastructure required
 
@@ -93,28 +92,6 @@ Step 7. Prediction application
 http://localhost:5000/predict
 
 ```
-
-## Run locally
-
-1. Check if the Dockerfile is available in the project directory
-2. Build the Docker image
-
-```
-
-docker build --build-arg AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID> --build-arg AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY> --build-arg AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION> --build-arg MONGODB_URL=<MONGODB_URL> . 
-
-```
-
-3. Run the Docker image
-
-```
-
-docker run -d -p 5000:5000 <IMAGE_NAME>
-
-```
-
-
-
 
 ## Models Used
 
