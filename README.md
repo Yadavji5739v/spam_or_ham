@@ -1,5 +1,6 @@
-# Spam Ham Detection Project
+# spam_or_ham
 
+## Spam Ham Detection Project
 
 ## Problem statement
 
